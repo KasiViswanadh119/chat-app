@@ -5,7 +5,7 @@ const http = require('http').Server(app);
 const PORT = 4000
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "https://chat-app-9xw4.onrender.com"
+        origin: "http://localhost:3000"
     }
 });
 
