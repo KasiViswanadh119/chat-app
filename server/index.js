@@ -1,11 +1,11 @@
-const express = require("express")
+import express from "express";
 const app = express()
-const cors = require("cors")
+import cors from "cors";
 const http = require('http').Server(app);
 const PORT = 4000
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "https://magnificent-blancmange-015564.netlify.app/"
+        origin: "https://magnificent-blancmange-015564.netlify.app/chat"
     }
 });
 
