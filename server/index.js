@@ -5,7 +5,7 @@ const http = require('http').Server(app);
 const PORT = 4000
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "https://magnificent-blancmange-015564.netlify.app/chat"
+        origin: "https://magnificent-blancmange-015564.netlify.app/"
     }
 });
 
